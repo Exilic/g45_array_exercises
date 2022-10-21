@@ -9,7 +9,10 @@ public class Exercise05 {
    *              Sweden Stockholm
    */
   public static void ex5() {
-
+    String[][] locations = {{"France", "Paris"}, {"Sweden", "Stockholm"}};
+    System.out.println();
+    System.out.println(locations[0][0] + " " + locations[0][1]);
+    System.out.println(locations[1][0] + " " + locations[1][1]);
   }
 
 }

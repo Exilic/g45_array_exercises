@@ -8,7 +8,17 @@ public class Exercise09 {
    * solution to “expand” the array
    */
   public static void ex9() {
-
+    System.out.println();
+    int[] addedTo = new int[] {45, 34, 23};
+    int toAdd = 56;
+    int[] result = new int[addedTo.length +1];
+    for(int i = 0; i < result.length - 1; i++){
+      result[i] = addedTo[i];
+    }
+    result[result.length - 1] = toAdd;
+    for(int i = 0; i < result.length; i++) {
+      System.out.print(result[i] + " ");
+    }
   }
 
 }

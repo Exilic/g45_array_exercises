@@ -1,8 +1,8 @@
 # Array Exercises
 
-Group Name **[group_name]**
+Group Name **[G3]**
 
-1. [student name]
-2. [student name]
-3. [student name]
-4. [student name]
+1. [Emil Rutberg Andersson]
+2. [Mattias Björk]
+3. [Mohammad Alissa]
+4. [Tobias Engberg]

@@ -8,6 +8,19 @@ public class Exercise07 {
    * Odd Array: 1 7 9
    */
   public static void ex7() {
+    int[] numbers = {1, 2, 4, 7, 9, 12};
+    System.out.println();
+    System.out.print("Array: ");
+    for(int number : numbers){
+      System.out.print(number + " ");
+    }
+    System.out.println();
+    System.out.print("Odd Array: ");
+    for(int number : numbers){
+      if(number % 2 == 1){
+        System.out.print(number + " ");
+      }
+    }
 
   }
 

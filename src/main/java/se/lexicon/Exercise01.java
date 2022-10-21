@@ -10,7 +10,11 @@ public class Exercise01 {
    * Expected output: 11 23 39 etc.
    */
   public static void ex1() {
-
+    int[] numbers = {11, 23, 39, 54, 72};
+    System.out.println();
+    for (int number : numbers) {
+      System.out.print(number + " ");
+    }
   }
 
 
